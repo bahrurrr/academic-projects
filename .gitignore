@@ -1,0 +1,23 @@
+# Mengabaikan file hasil compile bahasa C
+*.exe
+*.o
+*.out
+
+# Mengabaikan folder dependency JavaScript / React
+node_modules/
+dist/
+.vite/
+.vite-temp/
+
+# Mengabaikan file temporary MS Word / Office
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Mengabaikan file sistem Windows/Mac
+.DS_Store
+Thumbs.db
+
+# Mengabaikan file temporary dari VS Code (Code Runner)
+tempCodeRunnerFile.c
+tempCodeRunnerFile.exe
